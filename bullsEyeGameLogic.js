@@ -260,6 +260,7 @@ function displayActivePlayerCards() {
 function roundScoreLogic(playedCardValue) {
     //console.log(playedCardValue);
     roundScore[activeRound] += playedCardValue;
+    document.getElementById('activeRoundScore').innerHTML = roundScore[activeRound];
     console.log('active round score : ' + roundScore[activeRound]);
     if (activePlayer === 3) {
         if (roundScore[activeRound] === playerBids[activeRound % 4][Math.floor(activeRound / 4)]) {

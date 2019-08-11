@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <form id="form" onsubmit="return false;">
+    <input type="text" id="userInput" /> 
+    <input type="submit" onclick="othername();" />
+</form>
+
+
+
+<p>Click "Submit" to display the value of each element in the console.</p>
+
+<p id="demo"></p>
+
+<script>
+function othername() {
+    var input = document.getElementById("userInput").value;
+    console.log(input);
+}
+</script>
+
+</body>
+</html>

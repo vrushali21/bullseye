@@ -1,0 +1,32 @@
+.player0Cards {
+    position : absolute;
+    top : 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    
+}
+
+.player1Cards {
+    position : absolute;
+    top : 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+.player2Cards {
+    position : absolute;
+    top : 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+.player3Cards {
+    position : absolute;
+    top : 80%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+}

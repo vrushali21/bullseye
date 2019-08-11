@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<htlm5>
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="style2.css">
+
+    </head>
+
+    <body>
+        <div id="gameName">
+            <h1>
+                Bulls Eye Game!
+            </h1>
+        </div>
+
+
+        <button onclick="dealCards()" id="dealCardsButton">Deal Cards</button>
+        </br>
+
+        <div id="player0Div">
+            Player 0 Cards
+            </br>
+
+        </div>
+        </br>
+
+        <div id="player1Div">
+            Player 1 Cards
+            </br>
+        </div>
+        </br>
+
+        <div id="player2Div">
+            Player 2 Cards
+            </br>
+
+        </div>
+        </br>
+
+        <div id="player3Div">
+            Player 3 Cards
+            </br>
+
+        </div>
+        </br>
+
+
+        <div id="submitBidPanel">
+
+            <h2>Bidding Panel</h2>
+            </br>
+
+        </div>
+
+        <div id="playerBidsDisplayPanel">
+            </br>
+            <h2>Player Bids Submitted :</h2>
+            </br>
+        </div>
+
+        <div>
+            <button onclick="displayActivePlayerCards()"> Hide Cards </button>
+        </div>
+
+        <script src=bullsEyeGameLogic.js></script>
+
+        <div id="playerScores">
+            </br>
+            <h2>Player Scores :</h2>
+            </br>
+            Player 0 Score -
+            <p id='p0score'> </p>
+
+            Player 1 Score -
+            <p id='p1score'> </p>
+
+            Player 2 Score -
+            <p id='p2score'></p>
+
+            Player 3 Score -
+            <p id='p3score'> </p>
+
+            
+        </div>
+
+    </body>
+</htlm5>

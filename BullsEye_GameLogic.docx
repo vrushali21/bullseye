@@ -1,0 +1,14 @@
+It's a 4 people game. Split in teams of 2.
+
+Version 1 - Pre-bid each round score.
+
+Omit card 7 from the gameplay.
+card values range 1 to 13 as per their numbers.
+all 4 players first place a bet. About how much total score they will be making.
+The score per round is calculated as a total of all cards consumed in the hand. 
+If the total score is same as the amount that was bet, then the team that made the bid for that point gets points depending on the bid. 
+If bid<15 or if bid>40, 2 points
+If 15<bid<40, 1 point
+If the total score is not as per the bid, no team gets any point. 
+Team with maximum points wins. 
+In case of tie, the total score is used to decide the winner.

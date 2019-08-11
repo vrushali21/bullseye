@@ -1,0 +1,21 @@
+#player0Div {
+    color: blue; 
+
+}
+#player1Div{
+    color: blue;
+
+}
+#player2Div{
+    color: blue;
+
+}
+#player3Div{
+    color: blue;
+
+}
+.disabledDiv{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
